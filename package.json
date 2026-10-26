@@ -6,7 +6,7 @@
   "author": "Patrick Becker",
   "type": "module",
   "scripts": {
-    "start": "node --watch src/index.ts",
+    "start": "node --watch src/app.ts",
     "check": "tsc"
   },
   "dependencies": {
