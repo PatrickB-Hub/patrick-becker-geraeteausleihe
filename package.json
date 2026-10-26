@@ -1,0 +1,20 @@
+{
+  "name": "mittwald",
+  "version": "1.0.0",
+  "description": "Ein Programm zur Verwaltung der IT-Geräteausleihe",
+  "license": "ISC",
+  "author": "Patrick Becker",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.ts",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
